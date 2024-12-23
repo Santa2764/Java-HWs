@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5437/coffee-shop-db
+    username: sa
+    password: admin
+    driverClassName: org.postgresql.Driver
+
+db:
+  sqlScriptCreateTables: src/main/resources/createTables.sql
+
+data:
+  type_assortements: src/main/resources/typeAssortements.txt
+  personal_position: src/main/resources/personal_position.txt
+  names: src/main/resources/names.txt
+  lastnames: src/main/resources/lastnames.txt
+  coffeenames_ru: src/main/resources/coffeenames_ru.txt
+  coffeenames_en: src/main/resources/coffeenames_en.txt
+  desertnames_ru: src/main/resources/desertnames_ru.txt
+  desertnames_en: src/main/resources/desertnames_en.txt
